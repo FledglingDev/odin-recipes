@@ -1,45 +1,77 @@
 body {
-    background-color: pink;
+    background-color: lightskyblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a  {
-    color: palevioletred;
+    display: block;
+    color: blue;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     text-decoration: none;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
 
 img {
+    display: inline-block;
     width: 600px;
     height: 300px;
     border-style: solid;
-    border-width:5px;
-    border-color: black;
+    border-width:0.5px;
+    border-color: blue;
+}
+
+.center-image {
+    text-align: center;
 }
 
 h1 {
     font-size: 70px;
     font-weight: 700;
-    color:olive;
+    text-align: center;
+    color:skyblue;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    margin: 0px;
+    padding: 0px;
     }
 
 h2 {
+    display: block;
     font-size: 40px;
     font-weight: 600;
     color:olive;
+    margin: 0px;
+    padding: 0px;
     }
 
-    p {
-        color: black;
-        font-size: 30px;
+p a {
+    color: blue;
+    font-size: 30px;
+    background-color: lightskyblue;
+    outline: solid lightskyblue;
+    outline-width: 1px;
+    }
+
+desc-text {
+    display: block;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 0px;
+    background-color: white;
+    outline: solid blue;
+    outline-width: 1px;
     }
     
 li {
     color: black;
     font-size: 30px;
+    margin: 10px;
+    width: auto;
+    background-color: white;
+    outline: solid blue;
+    outline-width: 1px;
     }
-
